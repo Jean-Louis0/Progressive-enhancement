@@ -1,0 +1,157 @@
+header > h1 {
+    text-align: center;
+    margin-top: 60px;
+}
+header > h2{
+    text-align: center;
+    margin-top: 40px;
+    font-style: italic;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to bottom right, #ff00ff, #00ffff);
+    background-image: url('bg-image2.jpg');
+    background-repeat:no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    font-size: large;
+}
+[class="good"]{
+    color: green;
+    text-transform: capitalize;
+}
+[class="bad"]{
+    text-transform: capitalize;
+    color: red;
+}
+h2 + blockquote {
+    text-align: right;
+    margin-top: 20px;
+    font-style: italic;
+
+}
+blockquote{
+    background-color: #f3f3f3;  /* To make the background look white*/
+    width:fit-content;  /* to size the width the the content of the blockquote */
+    /* To horizontally center the blockquote within its containing element */
+    margin-left: auto;
+    margin-right: auto;
+    /* ------------------------------------------------------------------- */
+    font-size: 160%;
+    
+    border-left: 3px solid firebrick; /* To put a solid red on the left border of the blockquote*/
+    padding-left: 30px;  /* to put space btn the red left border and the content*/
+    padding-right: 30px; /* to put space btn the right border and the content */
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+/* p{
+    font-family: serif;
+    line-height: 2;
+    font-size: 16px;
+} */
+
+a{
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover{
+    color: #0056b3;
+    text-decoration: underline;
+}
+a:visited{
+    color: #663399;
+}
+q.farmer{
+    font-style: italic;
+    border-left: 3px solid blue;
+}
+q.villagers{
+    font-style: italic;
+    border-left:3px solid green;
+}
+table{
+    width:600px;
+    height:300px;
+}
+tr:nth-child(even) {
+    background-color: gainsboro;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: white;
+  }
+  li{
+    margin-bottom: 40px;
+  }
+  li:first-child {
+    background-image: url('thumbsup.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 300px;
+    padding-right: 40px;
+  }
+  li:nth-child(2){
+    background-image: url('thumbsdown.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 300px;
+    padding-right: 40px;
+  }
+li:nth-child(3) {
+    background-image: url(cat.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 300px;
+    padding-right: 40px;
+}
+.firstparagraph {
+    font-weight: bold;
+  }
+
+.explanation{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row-reverse;
+    align-items:flex-start;
+}
+.people{
+    justify-self: auto;
+}
+.people p{
+    text-align: center;
+}
+figure img{
+    flex-shrink: 0;
+    margin-left: 20px;
+    max-width: 500px;
+}
+
+.firstdiv{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row-reverse;
+    align-items:flex-start; 
+}
+h3{
+    text-align: center;
+}
+.story{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    align-items:flex-start;
+}
+
+.notification{
+    background-color: beige;
+    border:1px solid blue;
+    width:fit-content;
+    font-weight:bold;
+    position: fixed;
+    bottom:0;
+    right:0;
+  }
